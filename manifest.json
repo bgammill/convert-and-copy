@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Convert and Copy",
+    "description": "Adds a context menu which converts base64 text and copies the resulting string to the clipboard.",
+    "version": "1.0",
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "clipboardWrite"
+    ]
+}
